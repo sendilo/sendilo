@@ -18,4 +18,4 @@ server.use(mount_rdf_formats_proxy, require('http-rdf-formats-proxy')())
 require('./lib/eyeserver')(server, mount_eyeserver, debug_eyeserver)
 
 // start solid cli with custom server
-require('solid-server').cli(server)
+require('solid-server').startCli(server)
