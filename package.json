@@ -1,16 +1,14 @@
 {
   "name": "sendilo",
   "description": "social linked data server - solid with useful middlewares",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Tomáš Klapka",
     "email": "tomas@klapka.cz"
   },
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.17.2",
     "express": "^4.15.4",
-    "eyeserver": "^1.1.0",
     "http-rdf-formats-proxy": "0.0.5",
     "solid-server": "git://github.com/solid/node-solid-server.git#release/v4.0.0"
   },

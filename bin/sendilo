@@ -2,8 +2,6 @@
 
 // mount points
 const mount_rdf_formats_proxy = '/apps/formats'
-const mount_eyeserver = '/apps/eyeserver'
-const debug_eyeserver = false
 
 const debug = require('debug')('sendilo')
 
@@ -13,9 +11,6 @@ const server = express()
 
 // http-rdf-formats-proxy
 server.use(mount_rdf_formats_proxy, require('http-rdf-formats-proxy')())
-
-// EyeServer - commented because it seems it breaks express
-// require('./lib/eyeserver')(server, mount_eyeserver, debug_eyeserver)
 
 // start solid cli with custom server
 require('solid-server').startCli(server)
