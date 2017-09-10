@@ -1,6 +1,6 @@
 # sendilo
 
-social linked data server - solid with useful middlewares
+social linked data server - solid with http-rdf-formats-proxy
 
 supposed to be run in [sendilkontenero](https://github.com/sendilo/sendilkontenero)
 
@@ -11,4 +11,3 @@ supposed to be run in [sendilkontenero](https://github.com/sendilo/sendilkontene
 ## middlewares
 
  * [http-rdf-formats-proxy](https://github.com/rdf-ext/http-rdf-formats-proxy)
- * adjusted [EyeServer](https://github.com/RubenVerborgh/EyeServer) to work as middleware
