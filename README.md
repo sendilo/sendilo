@@ -6,7 +6,7 @@ supposed to be run in [sendilkontenero](https://github.com/sendilo/sendilkontene
 
 ## solid server
 
- * [node-solid-server](https://github.com/solid/node-solid-server) branch `release/v4.0.0`
+ * [node-solid-server](https://github.com/solid/node-solid-server)
 
 ## middlewares
 
