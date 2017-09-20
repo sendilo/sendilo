@@ -1,7 +1,7 @@
 {
   "name": "sendilo",
   "description": "social linked data server - solid with useful middlewares",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Tomáš Klapka",
     "email": "tomas@klapka.cz"
@@ -9,8 +9,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.4",
-    "http-rdf-formats-proxy": "0.0.5",
-    "solid-server": "^4.0.0"
+    "http-rdf-formats-proxy": "0.0.6",
+    "solid-server": "^4.0.1"
   },
   "devDependencies": {},
   "main": "bin/sendilo",
